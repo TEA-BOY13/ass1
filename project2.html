@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style type="text/css">
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature {
+    flex: 1 1 calc(33.33% - 20px);
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex: 1 1 100%;
+    }
+}
+
+</style>
+<body>
+    <!-- Hero Section -->
+    <header>
+        <h1>Introducing Our Product</h1>
+        <p>Unlock new possibilities with our innovative solution.</p>
+        <button>Learn More</button>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="icon1.png" alt="Feature 1">
+            <h2>Feature 1</h2>
+            <p>blue t shirt with graduation style of computer science department.</p>
+        </div>
+        <div class="feature">
+            <img src="icon2.png" alt="Feature 2">
+            <h2>Feature 2</h2>
+            <p>white t shirt with graduation style of computer science department.</p>
+        </div>
+        <div class="feature">
+            <img src="icon3.png" alt="Feature 3">
+            <h2>Feature 3</h2>
+            <p>back view of the white t shirt.</p>
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>Contact: <a href="mabubakariliya@gmail.com">mabubakariliya@gmail.com</a></p>
+        <p>&copy; 2024 Future tech. maveric</p>
+    </footer>
+</body>
+</html>
